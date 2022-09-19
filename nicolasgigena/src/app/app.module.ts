@@ -9,7 +9,7 @@ import { SocialComponent } from './components/social/social.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    SocialComponent
+    SocialComponent,
   ],
   imports: [
     BrowserModule
