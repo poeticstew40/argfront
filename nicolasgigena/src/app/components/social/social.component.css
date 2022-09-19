@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logos1{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logos{
+    width: 30px;
+}
+
+.logo{
+    width: 200px;
+    text-align: left;
+    padding-left: 20px;
+    align-items: center;
+}
