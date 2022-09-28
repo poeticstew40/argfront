@@ -20,12 +20,12 @@ public class UsuarioPrincipal implements UserDetails {
     private Collection<? extends GrantedAuthority> authorities;
 
     //Constructor
-    public UsuarioPrincipal(String nombre, String nombreUsuario, String email, String password, Collection<? extends GrantedAuthority> authorities) {
+    public UsuarioPrincipal(String nombre, String nombreUsuario, String email, String password, Collection<? extends GrantedAuthority> autorities) {
         this.nombre = nombre;
         this.nombreUsuario = nombreUsuario;
         this.email = email;
         this.password = password;
-        this.authorities = authorities;
+        this.authorities = autorities;
     }
 
     public static UsuarioPrincipal build(Usuario usuario) {
