@@ -32,5 +32,13 @@ public class UsuarioService {
     public void save(Usuario usuario){
         iusuarioRepository.save(usuario);
     }
+
+    public boolean existsByNombreUsuario(String nombreUsuario) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public boolean existsByEmail(String email) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
 
