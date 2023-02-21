@@ -7,7 +7,7 @@ package com.portfolio.ng.Controller;
 import com.portfolio.ng.Dto.dtoEducacion;
 import com.portfolio.ng.Entity.Educacion;
 import com.portfolio.ng.Security.Controller.Mensaje;
-import com.portfolio.ng.Service.Seducacion;
+import com.portfolio.ng.Service.SEducacion;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "https://frontendngd.web.app")
 public class CEducacion {
     @Autowired
-    Seducacion sEducacion;
+    SEducacion sEducacion;
     
     @GetMapping("/lista")
     public ResponseEntity<List<Educacion>> list(){
